@@ -1,0 +1,35 @@
+.leaderboard-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.leaderboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e67e22;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.leaderboard-header-row,
+.leaderboard-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.leaderboard-header-row {
+  background-color: #ffeed0;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.leaderboard-row {
+  background-color: #fff9ef;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
