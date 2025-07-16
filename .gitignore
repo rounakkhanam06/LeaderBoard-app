@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -7,15 +8,23 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependencies and build output
+# Dependencies and build outputs
 node_modules/
+client/node_modules/
+server/node_modules/
+
 dist/
+client/dist/
+server/dist/
 dist-ssr/
 build/
 
 # Environment variables
 .env
+*.env
 *.local
+client/.env
+server/.env
 
 # Editor directories and files
 .vscode/
@@ -31,4 +40,5 @@ build/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
 
