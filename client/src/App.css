@@ -1,7 +1,8 @@
 /* App.css */
 html, body, #root {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
+  background: linear-gradient(135deg, #fff8dc, #ffb347); 
 }
 
 .app-container {
